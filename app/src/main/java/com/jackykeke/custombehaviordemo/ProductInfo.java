@@ -1,7 +1,7 @@
 package com.jackykeke.custombehaviordemo;
 
-import com.jackykeke.custombehaviordemo.base.BaseModuleApp;
-import com.jackykeke.custombehaviordemo.base.BaseProductInfo;
+import com.jackykeke.base.base.BaseModuleApp;
+import com.jackykeke.base.base.BaseProductInfo;
 
 public class ProductInfo implements BaseProductInfo {
     /**

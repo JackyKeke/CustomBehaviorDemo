@@ -1,4 +1,4 @@
-package com.jackykeke.custombehaviordemo.mimusicbehavior.behavior;
+package com.jackykeke.custombehaviordemo.behavior;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -13,8 +13,8 @@ import androidx.core.view.ViewCompat;
 import androidx.core.widget.NestedScrollView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.jackykeke.base.utils.DisplayUtil;
 import com.jackykeke.custombehaviordemo.R;
-import com.jackykeke.custombehaviordemo.utils.DisplayUtil;
 
 import java.lang.reflect.Field;
 

@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomBehaviorDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomBehaviorDemo.iml" group="CustomBehaviorDemo" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomBehaviorDemo_buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomBehaviorDemo_buildSrc.iml" group="CustomBehaviorDemo/CustomBehaviorDemo_buildSrc" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="CustomBehaviorDemo/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base/base.iml" filepath="$PROJECT_DIR$/.idea/modules/base/base.iml" group="CustomBehaviorDemo/base" />
     </modules>
   </component>
 </project>

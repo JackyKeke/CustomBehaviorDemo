@@ -1,8 +1,7 @@
-package com.jackykeke.custombehaviordemo.utils;
+package com.jackykeke.base.utils;
 
-import android.content.Context;
 
-import com.jackykeke.custombehaviordemo.base.BaseModuleApp;
+import com.jackykeke.base.base.BaseModuleApp;
 
 public class DisplayUtil {
 

@@ -1,4 +1,4 @@
-package com.jackykeke.custombehaviordemo.mimusicbehavior.widget;
+package com.jackykeke.custombehaviordemo.widget;
 
 import android.content.Context;
 import android.graphics.Canvas;

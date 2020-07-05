@@ -24,17 +24,7 @@ android {
 
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
-    implementation Deps.appcompat
-    implementation Deps.constraintlayout
-    implementation Deps.recyclerview
-    testImplementation Deps.junit
-    androidTestImplementation Deps.ext_junit
-    androidTestImplementation Deps.espresso_core
-
-    implementation Deps.coordinatorlayout
-    implementation Deps.palette
-    implementation Deps.statusbarutil
-    implementation Deps.BaseRecyclerViewAdapterHelper
 
 
+    implementation project(":base")
 }
