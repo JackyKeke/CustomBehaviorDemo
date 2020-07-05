@@ -10,7 +10,7 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_behavior=".mimusicbehavior.behavior.FaceBehavior">
+        app:layout_behavior=".behavior.FaceBehavior">
 
 
         <ImageView
@@ -31,12 +31,13 @@
     </FrameLayout>
 
 
+
     <!--TopBar部分-->
-    <com.jackykeke.custombehaviordemo.mimusicbehavior.widget.TopBarLayout
+    <com.jackykeke.custombehaviordemo.widget.TopBarLayout
         android:id="@+id/cl_top_bar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/top_bar_height"
-        app:layout_behavior=".mimusicbehavior.behavior.TopBarBehavior">
+        app:layout_behavior=".behavior.TopBarBehavior">
 
 
         <ImageView
@@ -62,7 +63,7 @@
             app:layout_constraintStart_toEndOf="@+id/iv_back" />
 
 
-        <com.jackykeke.custombehaviordemo.mimusicbehavior.widget.DrawableLeftTextView
+        <com.jackykeke.custombehaviordemo.widget.DrawableLeftTextView
             android:id="@+id/tv_top_bar_coll"
             android:layout_width="72dp"
             android:layout_height="24dp"
@@ -78,14 +79,14 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/tv_top_bar_name" />
 
-    </com.jackykeke.custombehaviordemo.mimusicbehavior.widget.TopBarLayout>
+    </com.jackykeke.custombehaviordemo.widget.TopBarLayout>
     <!--TopBar部分-->
 
     <!-- TitleBar -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        app:layout_behavior=".mimusicbehavior.behavior.TitleBarBehavior">
+        app:layout_behavior=".behavior.TitleBarBehavior">
 
         <TextView
             android:id="@+id/tv_cls_content_name"
@@ -99,7 +100,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <com.jackykeke.custombehaviordemo.mimusicbehavior.widget.DrawableLeftTextView
+        <com.jackykeke.custombehaviordemo.widget.DrawableLeftTextView
             android:layout_width="72dp"
             android:layout_height="32dp"
             android:layout_marginEnd="8dp"
@@ -126,7 +127,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:translationY="@dimen/content_trans_y"
-        app:layout_behavior=".mimusicbehavior.behavior.ContentBehavior">
+        app:layout_behavior=".behavior.ContentBehavior">
 
         <LinearLayout
             android:id="@+id/stl"

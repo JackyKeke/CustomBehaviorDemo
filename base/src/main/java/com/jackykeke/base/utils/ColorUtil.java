@@ -1,4 +1,4 @@
-package com.jackykeke.custombehaviordemo.utils;
+package com.jackykeke.base.utils;
 
 import android.graphics.Color;
 

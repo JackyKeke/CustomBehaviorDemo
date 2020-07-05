@@ -1,4 +1,4 @@
-package com.jackykeke.custombehaviordemo.base;
+package com.jackykeke.base.base;
 
 public interface BaseProductInfo {
 

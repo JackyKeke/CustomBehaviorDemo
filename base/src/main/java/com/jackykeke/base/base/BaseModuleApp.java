@@ -1,4 +1,4 @@
-package com.jackykeke.custombehaviordemo.base;
+package com.jackykeke.base.base;
 
 import android.app.Application;
 import android.util.Log;

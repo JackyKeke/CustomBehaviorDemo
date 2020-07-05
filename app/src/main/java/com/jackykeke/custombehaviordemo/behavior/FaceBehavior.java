@@ -1,4 +1,4 @@
-package com.jackykeke.custombehaviordemo.mimusicbehavior.behavior;
+package com.jackykeke.custombehaviordemo.behavior;
 
 import android.content.Context;
 import android.graphics.BitmapFactory;
@@ -13,9 +13,9 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.core.math.MathUtils;
 import androidx.palette.graphics.Palette;
 
+import com.jackykeke.base.utils.ColorUtil;
+import com.jackykeke.base.utils.DisplayUtil;
 import com.jackykeke.custombehaviordemo.R;
-import com.jackykeke.custombehaviordemo.utils.ColorUtil;
-import com.jackykeke.custombehaviordemo.utils.DisplayUtil;
 
 
 /**

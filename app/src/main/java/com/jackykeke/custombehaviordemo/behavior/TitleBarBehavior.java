@@ -1,4 +1,4 @@
-package com.jackykeke.custombehaviordemo.mimusicbehavior.behavior;
+package com.jackykeke.custombehaviordemo.behavior;
 
 
 import android.content.Context;
@@ -9,8 +9,9 @@ import androidx.annotation.NonNull;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.core.math.MathUtils;
 
+import com.jackykeke.base.utils.DisplayUtil;
 import com.jackykeke.custombehaviordemo.R;
-import com.jackykeke.custombehaviordemo.utils.DisplayUtil;
+
 
 import java.util.List;
 

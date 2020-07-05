@@ -4,7 +4,7 @@ import android.app.Application;
 import android.content.Context;
 
 
-import com.jackykeke.custombehaviordemo.base.BaseModuleApp;
+import com.jackykeke.base.base.BaseModuleApp;
 
 import java.util.LinkedList;
 import java.util.List;

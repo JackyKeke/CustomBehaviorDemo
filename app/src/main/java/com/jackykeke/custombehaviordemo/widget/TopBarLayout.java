@@ -1,7 +1,8 @@
-package com.jackykeke.custombehaviordemo.mimusicbehavior.widget;
+package com.jackykeke.custombehaviordemo.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;
+import android.view.View;
 
 import androidx.constraintlayout.widget.ConstraintLayout;
 
@@ -24,7 +25,7 @@ public class TopBarLayout extends ConstraintLayout {
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         //必不可少的步骤
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-        int newHeightMeasureSpec = MeasureSpec.makeMeasureSpec(getMeasuredHeight() + getStatusBarHeight(), MeasureSpec.EXACTLY);
+        int newHeightMeasureSpec = View.MeasureSpec.makeMeasureSpec(getMeasuredHeight() + getStatusBarHeight(), View.MeasureSpec.EXACTLY);
         super.onMeasure(widthMeasureSpec, newHeightMeasureSpec);
     }
 
