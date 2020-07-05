@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomBehaviorDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomBehaviorDemo.iml" group="CustomBehaviorDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomBehaviorDemo_buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomBehaviorDemo_buildSrc.iml" group="CustomBehaviorDemo/CustomBehaviorDemo_buildSrc" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="CustomBehaviorDemo/app" />
+    </modules>
+  </component>
+</project>
