@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CustomBehaviorDemo</string>
+    <string name="setting">设置</string>
+    <string name="customize_behavior">自定义 Behavior</string>
 </resources>
