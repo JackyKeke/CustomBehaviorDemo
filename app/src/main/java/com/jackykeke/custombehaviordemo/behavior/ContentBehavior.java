@@ -13,6 +13,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.widget.NestedScrollView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.jackykeke.base.utils.ALog;
 import com.jackykeke.base.utils.DisplayUtil;
 import com.jackykeke.custombehaviordemo.R;
 
@@ -219,6 +220,8 @@ public class ContentBehavior extends CoordinatorLayout.Behavior {
                 stopViewScroll(target);
             }
         }
+
+        ALog.w(this.getClass().getName(),"onNestedPreScroll");
     }
 
     private void stopViewScroll(View target) {

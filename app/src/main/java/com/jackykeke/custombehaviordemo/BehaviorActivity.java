@@ -8,6 +8,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
 import android.util.TypedValue;
+import android.view.View;
 
 import com.jackykeke.custombehaviordemo.fragment.SongFragment;
 import com.jackykeke.custombehaviordemo.fragment.TabFragment;
@@ -16,15 +17,15 @@ import com.jaeger.library.StatusBarUtil;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class BehaviorActivity extends AppCompatActivity {
 
 
 //  链接  https://mp.weixin.qq.com/s/K_PQkGihQXSzOjsme90wxA
 
     private final String[] mTitles = {
-            "热门", "专辑", "视屏","资讯"
+            "热门", "专辑", "视屏", "资讯"
     };
-//    private SlidingTabLayout mSl;
+    //    private SlidingTabLayout mSl;
     private ViewPager mViewPager;
     private ArrayList<Fragment> mFragments = new ArrayList<>();
     private MyFragmentAdapter mFragmentAdapter;
@@ -32,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_behavior);
         StatusBarUtil.setTranslucentForImageView(this, 0, null);
         initData();
         initView();
@@ -70,6 +71,10 @@ public class MainActivity extends AppCompatActivity {
     private void initView() {
 //        mSl = findViewById(R.id.stl);
         mViewPager = findViewById(R.id.vp);
+    }
+
+    public void back(View view) {
+        finish();
     }
 
     private class MyFragmentAdapter extends FragmentPagerAdapter {
